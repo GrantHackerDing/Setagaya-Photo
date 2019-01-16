@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="世田谷" description="Tokyo" />
+		<meta content="摄影" description="约拍故事" />
+		<meta content="author" description="盛唐红人" />
+		<meta content="日系摄影" description="日系摄影约等于什么" />
+		<meta content="theme" description="用照片和文字打造你自己的内心世界" />
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<title>欢迎来到世田谷摄客！！</title>
+		<link rel="shortcut icon" href="../ico/bitbug_favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="../css/mainpage.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../js/json3.js" charset="UTF-8"></script>
+	</head>
+
+	<body>
+
+		<header id="pageHead">
+			世田谷摄客<br/> SETEGAYA PHOTO
+			<div id="lang">
+				<a href="#" class="cls1">中文</a>
+				<a href="#" class="cls1">English</a>
+				<a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Cja', 'English_to_Japanese', 'resizable,scrollbars,status'))" class="cls1">日本語</a>
+			</div>
+			<img id="trimmed" src="../pictures/trimmed.png" />
+		</header>
+		<div id="aside">
+			<div id="timer"></div>
+			<div id="countVisit"></div>
+			<div id="music">
+				<h4 id="musicname">森田童子 - ぼくたちの失败</h4>
+				<br/>
+				<audio id="audio" src="../music/森田童子 - ぼくたちの失败.mp3" controls="controls" autoplay="autoplay"></audio><br/>
+			</div>
+			<br><br>
+			<div>
+				<button id="btn-play" title="play"><img src="../pictures/musicplay.jpg"/></button>
+				<button id="btn-stop" title="pause"><img src="../pictures/musicstop.jpg"/></button>
+				<button id="btn-pre" title="previous"><img src="../pictures/premusic.jpg"/></button>
+				<button id="btn-next" title="next"><img src="../pictures/nextmusic.jpg"/></button>
+			</div>
+		</div>
+	
+
+		<!--轮播图-->
+		<div class="dc_carousel" id="dc_carousel">
+			<div class="dc_carousel_img">
+				<!--这个是放图片的-->
+				<ul>
+					<li class="first">
+						<a href="../html/whyTakePhotosStrictly.html"><img src="../pictures/sea.jpg" title="发现|为什么要把照片拍成横平竖直" />
+							<h1 id="1st">发现|为什么要把照片拍成横平竖直</h1>
+						</a>
+					</li>
+					<li class="second">
+						<a href="#"><img src="../pictures/chilldren.jpg" title="发现|日系摄影约等于什么" />
+							<h1 id="2nd">发现|日系摄影约等于什么</h1>
+						</a>
+					</li>
+					<li class="third">
+						<a href="#"><img src="../pictures/couple.jpg" title="中年夫妇拍合影时应该保持多远的距离" />
+							<h1 id="3rd">中年夫妇拍合影时应该保持多远的距离</h1>
+						</a>
+					</li>
+					<!--<li class="third_last"><a href="#"><img src="pictures/love.jpg" title="和日本男孩谈恋爱" /><div class='pictitle'>和日本男孩谈恋爱</div></a></li>-->
+					<li class="second_last">
+						<a href="#"><img src="../pictures/girl.jpg" title="约故事|沉迷于植物图鉴的女孩" />
+							<h1 id="4th">约故事|沉迷于植物图鉴的女孩</h1>
+						</a>
+					</li>
+					<li class="last">
+						<a href="#"><img src="../pictures/Europeanman.jpg" title="番外篇：欧洲男人的脸" />
+							<h1 id="5th">番外篇：欧洲男人的脸</h1>
+					</li>
+				</ul>
+				
+			</div>
+			<div class="dc_carousel_point">
+				<!--这个是图片对应小圆点的-->
+				<!--<ul>
+					<li class="current_point"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>-->
+			</div>
+			<!--<span class="previous"></span>
+			<span class="next"></span>-->
+		</div>
+
+		<nav id="business">
+			<div>
+				<a href="../html/aboutUS.html" class="fun">关于我们</a>
+			</div>
+			<div>
+				<a href="../html/stories.html" class="fun">约故事</a>
+			</div>
+			<div id="consult">
+				<a href="../html/Consult.html" class='fun'>约拍咨询</a>
+				<dl>
+					<dt><a href="../html/methodofphoto.html">约拍方法</a></dt>
+					<dt><a>拍摄流程</a></dt>
+					<dt><a>特别活动</a></dt>
+				</dl>
+			</div>
+			<div>
+				<a href="../html/leaveMesg.html" class="fun">留言板</a>
+			</div>
+		</nav>
+
+		<footer>
+			<img src="../pictures/setagata.jpg" />
+			<section id="sec1"><dt>世田谷摄客</dt>
+				<h2>setagayaphoto.com</h2><br /><br />
+				<dd>我们是充满幻想的一群摄影师，<br/> 致力于通过摄影打造属于你自己的故事，
+					<br/> 并通过照片和文字认识自己的内心世界。
+				</dd>
+
+			</section>
+			<div id="divider1"></div>
+			<section id="sec2"><dt>联系我们</dt><br />
+				<dd>Tel:188-58965790</dd>
+				<dd>E-mail:
+					<a href="mailto:dingce@dingceme@163.com" title="发电邮联系我们">dingceme@163.com</a>
+				</dd>
+				<br />
+				<div>
+					<a class="wechat" href="javascript:"><img src="../pictures/wechat.jpg" id="wechat" alt="扫微信二维码联系我们" title="扫微信二维码联系我们" />
+						<img src="../pictures/qrcode.jpg" id="qrcode" />
+					</a>
+					<a class="sina" href="https://login.sina.com.cn/signup/signin.php?entry=blog&r=http%3A%2F%2Fcontrol.blog.sina.com.cn%2Fblogprofile%2Findex.php" target="_blank">
+						<img src="../pictures/sina.jpg" id="sina" alt="登录新浪微博关注我们" title="登录新浪微博关注我们" /></a>
+					<a class="twitter" href="https://www.twitter.com" target="_blank"><img src="../pictures/twitter.jpg" id="twitter" alt="登录twitter关注我们 " title="登录twitter关注我们" /></a>
+				</div>
+			</section>
+			<!--<div id="divider2 "></div>-->
+			<section id="sec3"><dt>友情链接</dt><br />
+				<dd>
+					<a href="https://setagaya-photo.com/photographer " target="_blank" title="https://setagaya-photo.com/photographer ">摄影师 大塚直樹</a>
+				</dd>
+				<dd>
+					<a href="http://www.cphoto.com.cn/ss/ " target="_blank" title="http://www.cphoto.com.cn/ss/ ">中国摄影</a>
+				</dd>
+				<dd>
+					<a href="http://academy.fengniao.com/ " target="_blank" title="http://academy.fengniao.com/ ">蜂鸟网</a>
+				</dd>
+			</section>
+			<nav id="rights">
+				©SETAGAYA PHOTO版权所有
+				<a href="# ">合作对象</a>
+				<a href="# ">IQCP</a>
+				<a href="# ">版权声明</a>
+				<a href="# ">广告服务</a>
+			</nav>
+
+		</footer>
+
+		<script type="application/javascript " src="../js/mainpage.js "></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+		<div id="prompt"></div>
+		<script>
+			window.attachEvent("onload",function(){
+				CFInstall.check({
+					mode:"overlay",
+					node:"prompt"
+				});
+			});
+		</script>
+	</body>
+
+</html>

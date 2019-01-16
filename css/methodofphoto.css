@@ -1,0 +1,114 @@
+header {
+	background: #00B4DB;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #0083B0, #00B4DB);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	overflow: hidden;
+	box-shadow: 0 0 30px 10px rgba(255, 255, 255, .7) inset;
+	text-align: justify;
+	font-family: '微软雅黑';
+	font-size: 60px;
+	position: absolute;
+	left: 120px;
+	width: 2000px;
+	height: 200px;
+	margin: auto, 600px;
+	padding: 10px;
+	line-height: 100px;
+}
+
+#trimmed {
+	position: absolute;
+	left: 1680px;
+	top: 20px;
+	width: 320px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 0 0 50px 30px #ffffff inset;
+}
+
+body {
+	background-image: url(../pictures/flowersea.jpg);
+}
+
+#lang {
+	font-size: 20px;
+	position: absolute;
+	left: 1680px;
+	top: 150px;
+	text-align: right;
+}
+
+#lang a {
+	margin: 20px;
+	color: #EEE;
+}
+
+.clas1 {
+	font-family: verdana;
+	outline: none;
+	color: rgb(254, 223, 225);
+	opacity: 0;
+	position: relative;
+	margin: 15px;
+	padding: 10px;
+}
+
+#aside {
+	position: absolute;
+	left: 1790px;
+	top: 300px;
+	width: 350px;
+	height: 1280px;
+	background: #005AA7;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFDE4, #005AA7);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*float: right;*/
+	z-index: -100;
+}
+
+#back{
+	position:absolute;
+	top:300px;
+	left:120px;
+	width:200px;
+	height:90px;
+	border:solid #0000FF 2px;
+	z-index: 1000;
+	font-size:20px;
+	padding: 2px;
+}
+
+#back a img{
+	width:120px;
+	height:70px
+}
+
+article{
+	position: absolute;
+	left: 120px;
+	top: 300px;
+	width: 1650px;
+	height: 1000px;
+	background: #FFFFFF;
+}
+
+article h1{
+	text-align: center;
+	font-size: 35px;
+}
+
+article section h3{
+	font-size: 25px;
+	text-indent: 1rem;
+}
+
+article section p{
+	font-size: 20px;
+	text-indent: 2rem;
+}
