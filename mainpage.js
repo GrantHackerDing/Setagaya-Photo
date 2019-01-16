@@ -101,7 +101,7 @@ var songName = document.getElementById('musicname');
 var btn3 = document.getElementById("btn-pre");
 btn3.onclick = function() {
 	musicNum = (musicNum + 4) % 5;
-	audio.src = "../music/" + music[musicNum] + ".mp3";
+	audio.src = music[musicNum] + ".mp3";
 	songName.innerHTML = music[musicNum];
 	audio.play();
 }
@@ -110,7 +110,7 @@ btn3.onclick = function() {
 var btn4 = document.getElementById("btn-next");
 btn4.onclick = function() {
 	musicNum = (musicNum + 1) % 5;
-	audio.src = "../music/" + music[musicNum] + ".mp3";
+	audio.src = music[musicNum] + ".mp3";
 	songName.innerHTML = music[musicNum];
 	audio.play();
 }
