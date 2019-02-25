@@ -1,3 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;	
+}
+
 header {
 	background: #00B4DB;
 	/* fallback for old browsers */
@@ -10,18 +19,16 @@ header {
 	text-align: justify;
 	font-family: '微软雅黑';
 	font-size: 60px;
-	position: absolute;
-	left: 120px;
-	width: 2000px;
+	position: relative;
+	width: 1200px;
 	height: 200px;
-	margin: auto, 600px;
+	margin:0 auto;
 	padding: 10px;
-	line-height: 100px;
 }
 
 #trimmed {
 	position: absolute;
-	left: 1680px;
+	left: 850px;
 	top: 20px;
 	width: 320px;
 	height: 150px;
@@ -36,8 +43,8 @@ body {
 #lang {
 	font-size: 20px;
 	position: absolute;
-	left: 1680px;
-	top: 150px;
+	left: 850px;
+	top: 180px;
 	text-align: right;
 }
 
@@ -56,12 +63,13 @@ body {
 	padding: 10px;
 }
 
+
 #aside {
 	position: absolute;
 	left: 1790px;
 	top: 300px;
 	width: 350px;
-	height: 1280px;
+	height: 3000px;
 	background: #005AA7;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
@@ -74,8 +82,8 @@ body {
 
 #back{
 	position:absolute;
-	top:300px;
-	left:120px;
+	/*top:120px;
+	left:200px;*/
 	width:200px;
 	height:90px;
 	border:solid #0000FF 2px;
@@ -91,24 +99,29 @@ body {
 
 article{
 	position: absolute;
-	left: 120px;
-	top: 300px;
-	width: 1650px;
+/*	left: 120px;*/
+/*	top: 300px;*/
+	width: 1200px;
 	height: 1000px;
 	background: #FFFFFF;
+	padding: 10px 0;
 }
 
-article h1{
+article p{
+	font-size: 30px;
+	font-weight: bold;
 	text-align: center;
-	font-size: 35px;
+	margin: 100px;
 }
 
-article section h3{
-	font-size: 25px;
-	text-indent: 1rem;
+article img{
+	display: block;
+	margin: 0 auto;
 }
 
-article section p{
-	font-size: 20px;
-	text-indent: 2rem;
+#big-wrap{
+	position: relative;
+	width: 1200px;
+	height: auto;
+	margin: 5px auto;
 }

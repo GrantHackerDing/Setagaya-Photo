@@ -14,18 +14,17 @@ header {
 	text-align: justify;
 	font-family: '微软雅黑';
 	font-size: 60px;
-	position: absolute;
-	left: 120px;
-	width: 2000px;
+	position: relative;
+	width: 1200px;
 	height: 200px;
-	margin: auto, 600px;
+	margin:0 auto;
 	padding: 10px;
-	line-height: 100px;
+	/*line-height: 100px;*/
 }
 
 #trimmed {
 	position: absolute;
-	left: 1680px;
+	left: 850px;
 	top: 20px;
 	width: 320px;
 	height: 150px;
@@ -40,8 +39,8 @@ body {
 #lang {
 	font-size: 20px;
 	position: absolute;
-	left: 1680px;
-	top: 150px;
+	left: 850px;
+	top: 180px;
 	text-align: right;
 }
 
@@ -62,10 +61,10 @@ body {
 
 #aside {
 	position: absolute;
-	left: 1790px;
-	top: 250px;
-	width: 350px;
-	height: 1280px;
+	left: 955px;
+	top: 30px;
+	width: 250px;
+	height: 420px;
 	background: #005AA7;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
@@ -77,10 +76,10 @@ body {
 }
 
 #timer {
-	width: 300px;
+	width: 220px;
 	height: 50px;
 	position: absolute;
-	left: 20px;
+	/*left: 10px;*/
 	top: 30px;
 	background-color: transparent;
 	z-index: 10000;
@@ -89,31 +88,33 @@ body {
 	font-size: 35px;
 	padding: 3px;
 	text-align: center;
-	margin: auto auto;
+	margin: 10px 15px;
 }
 
 #countVisit {
-	width: 300px;
+	width: 220px;
 	height: 50px;
 	position: absolute;
-	left: 20px;
+	/*left: 20px;*/
 	top: 120px;
 	background-color: transparent;
 	z-index: 10000;
 	background: rgb(252, 250, 242);
-	font-size:25px;
+	font-size:20px;
 	font-family:"verdana, geneva, arial, helvetica, sans-serif" ;
 	line-height: 50px;
 	text-align: center;
 	padding: 3px;
+	margin: 10px 15px;
 }
 
 #music {
 	position: absolute;
-	top: 250px;
-	left: 20px;
-	width: 300px;
+	top: 200px;
+/*	left: 20px;*/
+	width: 220px;
 	height: 100px;
+	margin: 10px 15px;
 }
 
 #musicname {
@@ -123,116 +124,92 @@ body {
 	/* Chrome 10-25, Safari 5.1-6 */
 	color: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	font-size: 20px;
+	font-size: 16px;
 }
 
 #audio {
+	position: absolute;
 	background: #1a2a6c;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 220px;
+	margin: 10px 15px;
+	left: -15px;
 }
 
 #btn-play {
 	position: absolute;
-	top: 400px;
-	left: 20px;
+	top: 360px;
+	left: 10px;
 	margin: 0 3px;
 	padding: 0;
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background: url(../pictures/musicplay.jpg);
 }
 
 #btn-play img {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
 #btn-stop {
 	position: absolute;
-	top: 400px;
-	left: 100px;
+	top: 360px;
+	left: 70px;
 	margin: 0 3px;
 	padding: 0;
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
 #btn-stop img {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
 #btn-pre {
 	position: absolute;
-	top: 400px;
-	left: 180px;
+	top: 360px;
+	left: 130px;
 	margin: 0 3px;
 	padding: 0;
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
 #btn-pre img {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
 #btn-next {
 	position: absolute;
-	top: 400px;
-	left: 260px;
+	top: 360px;
+	left: 190px;
 	margin: 0 3px;
 	padding: 0;
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
 #btn-next img {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
 }
 
-html,
-body,
-div,
-ol,
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-table,
-dt,
-dd,
-span,
-input {
-	margin: 0;
-	padding: 0
-}
 
-ul,
-li {
-	list-style: none
-}
-
-a {
-	text-decoration: none
-}
 
 .dc_left {
 	float: left
@@ -248,17 +225,24 @@ a {
 	clear: both
 }
 
+div#big-wrap{
+	position: relative;
+	width: 1200px;
+	height: auto;
+	margin:0 auto;
+}
+
 .dc_carousel {
-	width: 1000px;
-	height: 600px;
-	margin: 100px auto;
+	width: 600px;
+	height: 380px;
+	margin: 30px auto;
 	box-shadow: 0 0 5px #333;
 	-webkit-box-shadow: 0 0 5px #333;
 	-moz-box-shadow: 0 0 5px #333;
 	-o-box-shadow: 0 0 5px #333;
 	position: absolute;
-	top: 200px;
-	left: 420px;
+	top: 0;
+	left: 140px;
 	border: none;
 }
 
@@ -271,7 +255,7 @@ a {
 
 .dc_carousel .dc_carousel_img li {
 	position: absolute;
-	font: 30px 楷体;
+	font: 20px 楷体;
 	background: #333;
 	zoom: inherit;
 	border: none;
@@ -279,9 +263,9 @@ a {
 
 .dc_carousel .dc_carousel_img li h1{
 	position: relative;
-	top:-50px;
+	top:-40px;
 	left:0;
-	font-size:30px;
+	font-size:20px;
 	background:background: #2980B9;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
@@ -332,7 +316,7 @@ a {
 	text-align: right;
 	background: #00f;
 	top: 10%;
-	left: 51%;
+	left: 60%;
 	z-index: 9
 }
 
@@ -341,7 +325,7 @@ a {
 	height: 50%;
 	background: #ff0;
 	top: 25%;
-	left: 100%;
+	left: 96%;
 	z-index: 8
 }
 
@@ -360,14 +344,16 @@ a {
 	height: 50%;
 	background: #ff0;
 	top: 25%;
-	left: -30%;
+	left: -25%;
 	z-index: 8
 }
 
 .dc_carousel .dc_carousel_point {
+	position: absolute;
+	left: -150px;
 	opacity: 1;
-	width: 1050px;
-	height: 50px;
+	width: 935px;
+	height: 40px;
 	z-index: 1000;
 	text-align: center;
 	background: #de6161;
@@ -426,23 +412,22 @@ a {
 
 #business {
 	display: block;
-	width: 1400px;
+	width: 1200px;
 	height:400px;
-	position: absolute;
-	left: 230px;
-	top: 950px;
+	position: relative;
+	top: 450px;
 	text-align: center;
-	margin: 20px 20px 20px 20px;
+	margin: 10px auto;
 }
 
 #business div {
 	/*float: left;*/
 	display: inline-block;
-	width: 300px;
-	height: 80px;
+	width: 280px;
+	height: 70px;
 	border: groove;
 	line-height: 80px;
-	font-size: 30px;
+	font-size: 25px;
 	border: 1px groove;
 	border-radius: 8px;
 	margin: 5px;
@@ -458,8 +443,9 @@ a {
 }
 
 #business div:hover {
-	width: 350px;
+	width: 300px;
 	height: 100px;
+	cursor: pointer;
 }
 
 #business div a {
@@ -491,13 +477,12 @@ a {
 }
 
 footer {
-	/*float: left;*/
 	display: block;
-	position: absolute;
-	top: 1100px;
-	left: 120px;
-	width: 1600px;
-	height: 430px;
+	position: relative;
+	margin: 5px auto;
+	top: 150px;
+	width: 1200px;
+	height: 420px;
 	text-align: center;
 	background: #4776E6;
 	/* fallback for old browsers */
@@ -511,18 +496,18 @@ footer img {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	width: 150px;
-	height: 100px;
+	width: 100px;
+	height: 60px;
 }
 
 footer section {
 	float: left;
-	margin: 30px 130px;
+	margin: 30px 80px;
 	padding: 5px;
 }
 
 footer #sec1 dt {
-	font: 50px 楷体;
+	font: 25px 楷体;
 	color: crimson;
 }
 
@@ -531,26 +516,27 @@ footer #sec1 h2 {
 }
 
 footer #sec1 dd {
-	font-size: 20px;
+	font-size: 18px;
 	color: #EEE;
-	line-height: 35px;
+	line-height: 30px;
+	margin: 30px 0;
 }
 
 footer #sec2 dt {
-	font: 30px "黑体";
+	font: 25px "黑体";
 	color: #EEE;
 }
 
 footer #sec2 dd {
 	font-size: 20px;
 	color: #EEE;
-	line-height: 35px;
+	line-height: 30px;
 }
 
 footer #sec2 dd a {
-	font-size: 20px;
+	font-size: 18px;
 	color: #EEE;
-	line-height: 35px;
+	line-height: 30px;
 }
 
 footer #sec2 div .wechat {
@@ -622,28 +608,28 @@ footer #sec2 div .twitter #twitter {
 }
 
 footer #sec3 dt {
-	font: 30px "黑体";
+	font: 25px "黑体";
 	color: #EEE;
 }
 
 footer #sec3 dd {
-	font-size: 20px;
+	font-size: 18px;
 	color: #EEE;
-	line-height: 35px;
+	line-height: 30px;
 }
 
 footer #sec3 dd a {
-	font-size: 20px;
+	font-size: 18px;
 	color: #EEE;
-	line-height: 40px;
+	line-height: 30px;
 }
 
 #divider1 {
 	position: absolute;
 	top: 20px;
-	left: 600px;
+	left: 500px;
 	width: 2px;
-	height: 300px;
+	height: 250px;
 	background: #abbaab;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
@@ -664,6 +650,17 @@ footer #sec3 dd a {
 #rights a {
 	font-size: 16px;
 	color: #EEE;
-	margin: 0 100px;
+	margin: 0 70px;
 	padding: 0px;
+}
+
+#google_translate_element{
+	width: 100px;
+	height: 50px;
+	background: deeppink;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 2000;
+	opacity: 0.7;
 }
