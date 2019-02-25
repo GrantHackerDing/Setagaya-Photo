@@ -429,7 +429,7 @@ a {
 #business div {
 	/*float: left;*/
 	display: inline-block;
-	width: 280px;
+	width: 260px;
 	height: 70px;
 	border: groove;
 	line-height: 80px;
