@@ -5,6 +5,9 @@
 a{
 	text-decoration:none;
 }
+li{
+	list-style:none;
+}
 header {
 	background: #00B4DB;
 	/* fallback for old browsers */
